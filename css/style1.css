@@ -321,8 +321,8 @@ a:visited {
 }
 #container #howtouse {
   width: 1250px;
-  height: 1200px;
-  box-shadow: 0px 20px 20px -20px #5e5e5e;
+  height: 1305px;
+  /* box-shadow: 0px 20px 20px -20px #5e5e5e; */
   text-align: center;
 }
 #container #howtouse .howtousehead {
@@ -348,11 +348,79 @@ a:visited {
   width: 1250px;
   height: 1200px;
   /* float: right; */
-  background-color: black;
+  /* background-color: black;
   opacity: 0.5;
   position: relative;
-  z-index: -999;
+  z-index: -999; */
   margin-top: -41px;
+}
+#container #howtouse .howtousecontent .howtousecontentblock {
+  opacity: 1;
+  position: relative;
+  z-index: 3;
+  height: 423px;
+  margin-top: 700px;
+  background-color: white;
+  /* overflow: hidden; */
+  box-shadow: 0px 20px 20px -20px #5e5e5e;
+}
+#container #howtouse .howtousecontent .howtousecontentblock img {
+  /* width: 563px;
+  height: 623px; */
+  margin-top: -340px;
+  margin-left: 200px;
+  float: left;
+}
+#container
+  #howtouse
+  .howtousecontent
+  .howtousecontentblock
+  .howtousecontentblockright {
+  /* float: right; */
+  position: absolute;
+  right: 60px;
+  top: 90px;
+  width: 500px;
+  text-align: right;
+}
+#container
+  #howtouse
+  .howtousecontent
+  .howtousecontentblock
+  .howtousecontentblockright
+  h4 {
+  font-size: 30px;
+  font-weight: normal;
+  padding-right: 40px;
+  border-right: 5px solid #33bde5;
+}
+#container
+  #howtouse
+  .howtousecontent
+  .howtousecontentblock
+  .howtousecontentblockright
+  h4
+  span:first-child {
+  /* font-weight: 700; */
+  font-size: 40px;
+}
+#container
+  #howtouse
+  .howtousecontent
+  .howtousecontentblock
+  .howtousecontentblockright
+  h4
+  span:nth-child(3) {
+  color: #33bde5;
+}
+#container
+  #howtouse
+  .howtousecontent
+  .howtousecontentblock
+  .howtousecontentblockright
+  p {
+  font-size: 20px;
+  padding: 20px 0px 0px 120px;
 }
 .aboutusup {
   width: 1250px;
@@ -457,6 +525,9 @@ a:visited {
   border: 4px solid #f6f6f6;
   border-bottom: 4px solid #33bde5;
 }
+#container #joinus .joinuscontent > *:hover {
+  box-shadow: 10px 10px 5px #f6f6f6;
+}
 #container #joinus .joinuscontent .joinuscontentleft {
   margin-left: 50px;
 }
@@ -483,7 +554,7 @@ a:visited {
 #container #joinus .joinussub .joinusleft {
   width: 480px;
   float: left;
-  margin-top: 80px;
+  margin-top: 60px;
   margin-left: 100px;
   text-align: left;
 }
